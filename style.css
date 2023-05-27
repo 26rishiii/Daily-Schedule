@@ -1,0 +1,31 @@
+h1,h3{
+    color: #f7801e;
+}
+
+
+h4 {
+    color: rgb(151, 197, 83);
+}
+
+#moon{
+    width: 30px;
+    cursor: pointer;
+}
+
+:root{
+    --primary-colour: #edf2fc;
+    --secondary-colour: #212121;
+}
+.dark-mode{
+    --primary-colour: #000106;
+    --secondary-colour: #fff;
+}
+
+.main{
+    background: var(--primary-colour);
+    font-family: sans-serif;
+}
+
+ul li{
+    color: var(--secondary-colour);
+}
